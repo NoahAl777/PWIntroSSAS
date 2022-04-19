@@ -6,6 +6,28 @@
     <Name>PWIntroSSAS.database</Name>
     <FullPath>PWIntroSSAS.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Adventure Work Cube.cube</Name>
+      <FullPath>Adventure Work Cube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Adventure Work Cube.partitions</Name>
+          <FullPath>Adventure Work Cube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Person.dim</Name>
+      <FullPath>Person.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Adventure Works DW2019.ds</Name>
