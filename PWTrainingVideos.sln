@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PWIntroSSAS", "PWIntroSSAS\PWIntroSSAS.sqlproj", "{97E0043B-DD8A-4537-977D-522DCEAA82BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97E0043B-DD8A-4537-977D-522DCEAA82BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E0043B-DD8A-4537-977D-522DCEAA82BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E0043B-DD8A-4537-977D-522DCEAA82BE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{97E0043B-DD8A-4537-977D-522DCEAA82BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E0043B-DD8A-4537-977D-522DCEAA82BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E0043B-DD8A-4537-977D-522DCEAA82BE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53CECBAB-6673-4859-8203-6E34D66851BD}
+	EndGlobalSection
+EndGlobal
