@@ -11,7 +11,17 @@
       <Name>Adventure Works DW2019.ds</Name>
       <FullPath>Adventure Works DW2019.ds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Adventure Works2019.ds</Name>
+      <FullPath>Adventure Works2019.ds</FullPath>
+    </ProjectItem>
   </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Adventure Works2019.dsv</Name>
+      <FullPath>Adventure Works2019.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
@@ -22,11 +32,21 @@
             <Name>Adventure Works DW2019</Name>
             <Value xsi:type="xsd:string">Provider=MSOLAP.8;Data Source=localhost;Initial Catalog=PWIntroSSAS;Integrated Security=SSPI</Value>
           </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Adventure Works2019</Id>
+            <Name>Adventure Works2019</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-CVJJDKB;Integrated Security=SSPI;Initial Catalog=AdventureWorks2019</Value>
+          </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>Adventure Works DW2019</Id>
             <Name>Adventure Works DW2019</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Adventure Works2019</Id>
+            <Name>Adventure Works2019</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
