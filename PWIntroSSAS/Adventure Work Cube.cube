@@ -122,6 +122,15 @@
         <Attribute dwd:design-time-name="df4cb07c-ad6c-4f79-95ad-c69af590dcb0">
           <AttributeID>Email Promotion</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="9ea305b4-5074-48d2-addb-6f77914659d0">
+          <AttributeID>First Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="df686cf9-761f-4cb7-91e5-25028202855f">
+          <AttributeID>Middle Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da77edf3-fb41-44ca-a2f1-9146075bdf28">
+          <AttributeID>Last Name</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
