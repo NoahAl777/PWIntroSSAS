@@ -119,9 +119,6 @@
         <Attribute dwd:design-time-name="abfd2be1-d93f-467f-a884-e24da85a79f1">
           <AttributeID>Full Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="df4cb07c-ad6c-4f79-95ad-c69af590dcb0">
-          <AttributeID>Email Promotion</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="9ea305b4-5074-48d2-addb-6f77914659d0">
           <AttributeID>First Name</AttributeID>
         </Attribute>

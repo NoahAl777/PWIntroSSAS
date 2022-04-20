@@ -150,27 +150,12 @@
       <ID>Full Name</ID>
       <Name>Full Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="33626ea3-b577-4023-8334-64c061c58482">
+        <KeyColumn dwd:design-time-name="a6a1b7d0-b6ab-4450-83c1-386dffadd4d3">
           <DataType>WChar</DataType>
           <DataSize>152</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef0d81cc-c386-4fcc-90f2-fccac02baeb3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81bc46c5-d199-49dd-a08c-48f86e1411cd">
             <TableID>Person_Person</TableID>
             <ColumnID>FullName</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="e2b965d2-139d-4e4b-88a2-33f73e0a08d3">
-      <ID>Email Promotion</ID>
-      <Name>Email Promotion</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="17fae3cd-367b-4c59-9791-4686eaa82c2e">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="af2e1d15-94b9-4132-a050-c8b9df2af80d">
-            <TableID>Person_Person</TableID>
-            <ColumnID>EmailPromotion</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
@@ -181,15 +166,39 @@
       <ID>First Name</ID>
       <Name>First Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="eabe5cf7-d1b4-4fc8-a966-92d28fb6d0e7">
+        <KeyColumn dwd:design-time-name="46f5be79-8d85-4477-9296-8b15b6f3c338">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b817be13-7715-488b-8080-f648069f1a28">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="563d6321-be58-4347-97a6-902f5ced8e74">
             <TableID>Person_Person</TableID>
             <ColumnID>FirstName</ColumnID>
           </Source>
         </KeyColumn>
+        <KeyColumn dwd:design-time-name="7385f9dc-e729-428d-9dcc-1f2ce2c3786a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="26998d6e-024f-4e92-9e3b-bdcccae5b29e">
+            <TableID>Person_Person</TableID>
+            <ColumnID>MiddleName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="9da8366a-e2f6-44bc-bc8b-c9f36d14a74c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d96a60a-c0eb-42fc-9f60-733934989296">
+            <TableID>Person_Person</TableID>
+            <ColumnID>LastName</ColumnID>
+          </Source>
+        </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="f3ab8846-d58e-4a36-b73e-a16673f7fb6e">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8fd48f2c-4e06-44c0-a15e-6664259f4337">
+          <TableID>Person_Person</TableID>
+          <ColumnID>FirstName</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="cc84ef41-3918-4ffe-997c-9caf787c8608">
           <AttributeID>Full Name</AttributeID>
@@ -203,15 +212,39 @@
       <ID>Middle Name</ID>
       <Name>Middle Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4b284090-af5c-4b07-9ff4-6b7aa66af3cb">
+        <KeyColumn dwd:design-time-name="0b587934-b0f6-457a-b5f6-6789f768e315">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="921b7b64-f1e7-4017-8b1f-7f25696c92e7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="272346f2-ee82-4ea3-8127-7c758dd47d0c">
+            <TableID>Person_Person</TableID>
+            <ColumnID>FirstName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="3a4a7e9f-9af3-40ba-9286-3fceb89d040b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9b68a99-fc82-478b-8985-22a5f60a149e">
             <TableID>Person_Person</TableID>
             <ColumnID>MiddleName</ColumnID>
           </Source>
         </KeyColumn>
+        <KeyColumn dwd:design-time-name="e484f43f-a868-4d99-8f46-32e1ce6683de">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32437e1e-852b-4aa0-adc3-a2d87daf10e5">
+            <TableID>Person_Person</TableID>
+            <ColumnID>LastName</ColumnID>
+          </Source>
+        </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="412b2208-e525-4c68-8b2a-15f1b10f2171">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e4bedcd7-887b-4608-abf3-834a60e5b857">
+          <TableID>Person_Person</TableID>
+          <ColumnID>MiddleName</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="c37fd395-5536-430a-a525-bc63816038a7">
           <AttributeID>First Name</AttributeID>
@@ -225,15 +258,39 @@
       <ID>Last Name</ID>
       <Name>Last Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6e8cf63a-c0e0-40b2-827a-80e5413e3bcc">
+        <KeyColumn dwd:design-time-name="b170198a-2a82-4770-86ef-baaa5dd7325e">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="93662f24-aadd-4f15-81a7-50b94b1134a3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65a1450f-2480-4907-8119-4ca5649cce6c">
+            <TableID>Person_Person</TableID>
+            <ColumnID>FirstName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="c10f2597-a82f-4495-af5c-c6f121c6e0fb">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="43c4fa2c-f884-4f5f-8612-1464279a7e56">
+            <TableID>Person_Person</TableID>
+            <ColumnID>MiddleName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ade41b4a-59bf-4444-aa9c-8e4d55d156f4">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="13aa7a9c-3d19-4313-9a5c-2f79844da80b">
             <TableID>Person_Person</TableID>
             <ColumnID>LastName</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="9eb35d21-88bd-464e-9ea4-30cadb165f35">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9ee89289-6473-4537-b8aa-c2116eacd535">
+          <TableID>Person_Person</TableID>
+          <ColumnID>LastName</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="df47374e-29df-4365-91f0-03d2b05cc2e7">
           <AttributeID>Middle Name</AttributeID>
@@ -247,7 +304,7 @@
   <Hierarchies>
     <Hierarchy dwd:design-time-name="066e14e2-0567-4aa0-ae15-dcc942630813">
       <ID>Hierarchy</ID>
-      <Name>Hierarchy</Name>
+      <Name>Person Drilldown</Name>
       <Levels>
         <Level dwd:design-time-name="fe006527-3dc0-45c5-92a1-eabc026b09b8">
           <ID>Full Name</ID>
