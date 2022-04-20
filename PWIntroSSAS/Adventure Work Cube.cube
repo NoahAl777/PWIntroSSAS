@@ -116,10 +116,10 @@
         <Attribute dwd:design-time-name="326a60da-50a7-4d37-a8fc-de6c30a7fbe7">
           <AttributeID>Business Entity ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2b05335f-43c1-4346-8161-cd06f26cc4c1">
+        <Attribute dwd:design-time-name="abfd2be1-d93f-467f-a884-e24da85a79f1">
           <AttributeID>Full Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e69b6831-dde5-46f9-ad59-550e7ad3b626">
+        <Attribute dwd:design-time-name="df4cb07c-ad6c-4f79-95ad-c69af590dcb0">
           <AttributeID>Email Promotion</AttributeID>
         </Attribute>
       </Attributes>
