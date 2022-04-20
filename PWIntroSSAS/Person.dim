@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3596" scrolltop="911" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11007" y="13097" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3596" scrolltop="-1434" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11007" y="13097" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Person" left="-86" top="-35" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5045" height="8147" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Person" left="-192" top="71" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5045" height="8147" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b5130000d31f0000" />
             </control>
@@ -51,15 +51,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>911</Value>
+      <Value>-1434</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-86</Value>
+      <Value>-192</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-35</Value>
+      <Value>71</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -70,9 +70,13 @@
       <Value>
         <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
           <Shapes NodeWidth="156">
-            <Shape Id="Business Entity ID" Expanded="false">
+            <Shape Id="Business Entity ID" Expanded="true">
               <Attributes>
                 <Attribute Id="Business Entity ID" />
+                <Attribute Id="First Name 1" />
+                <Attribute Id="Full Name 1" />
+                <Attribute Id="Last Name 1" />
+                <Attribute Id="Middle Name 1" />
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
@@ -131,9 +135,25 @@
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="d551cc56-72f6-492c-a3c5-bbb08ac336c6">
+        <AttributeRelationship dwd:design-time-name="9fd48343-3ab7-4035-99f0-bb94a80de856">
           <AttributeID>Last Name</AttributeID>
+          <Name>Last Name DD</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="022fa265-4db5-44a1-92ad-d9f0d603d5a9">
+          <AttributeID>Last Name 1</AttributeID>
           <Name>Last Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ca064052-5d4c-4487-8ed2-09d88d36a5bf">
+          <AttributeID>Middle Name 1</AttributeID>
+          <Name>Middle Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="732f0f4b-ed65-44b5-9163-c0a8b2014f95">
+          <AttributeID>First Name 1</AttributeID>
+          <Name>First Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="08eec8e8-e343-4de5-8ea0-bf7f95fd6341">
+          <AttributeID>Full Name 1</AttributeID>
+          <Name>Full Name</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -142,7 +162,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="c64a2418-3f23-414b-9233-11a83248cd32">
       <ID>Full Name</ID>
-      <Name>Full Name</Name>
+      <Name>Full Name DD</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="25ecd011-fa38-45aa-ab58-d3d130ac5ebd">
           <DataType>WChar</DataType>
@@ -185,14 +205,13 @@
           <ColumnID>FullName</ColumnID>
         </Source>
       </NameColumn>
-      <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="175163c2-eea8-4768-8d7d-08e5d8688fc3">
       <ID>First Name</ID>
-      <Name>First Name</Name>
+      <Name>First Name DD</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="46f5be79-8d85-4477-9296-8b15b6f3c338">
           <DataType>WChar</DataType>
@@ -228,19 +247,18 @@
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="cc84ef41-3918-4ffe-997c-9caf787c8608">
+        <AttributeRelationship dwd:design-time-name="75d8d225-2a4d-434e-8c2c-63b7494c6207">
           <AttributeID>Full Name</AttributeID>
-          <Name>Full Name</Name>
+          <Name>Full Name DD</Name>
         </AttributeRelationship>
       </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="22c82cfa-b94f-4576-bb94-5ee8df1d74f7">
       <ID>Middle Name</ID>
-      <Name>Middle Name</Name>
+      <Name>Middle Name DD</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="0b587934-b0f6-457a-b5f6-6789f768e315">
           <DataType>WChar</DataType>
@@ -276,9 +294,9 @@
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="c37fd395-5536-430a-a525-bc63816038a7">
+        <AttributeRelationship dwd:design-time-name="be70aa58-df80-4b0a-8448-aacfbc943b9d">
           <AttributeID>First Name</AttributeID>
-          <Name>First Name</Name>
+          <Name>First Name DD</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -287,7 +305,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="29d3f10a-bf36-411c-9796-bd5e53588541">
       <ID>Last Name</ID>
-      <Name>Last Name</Name>
+      <Name>Last Name DD</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="b170198a-2a82-4770-86ef-baaa5dd7325e">
           <DataType>WChar</DataType>
@@ -323,12 +341,79 @@
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="df47374e-29df-4365-91f0-03d2b05cc2e7">
+        <AttributeRelationship dwd:design-time-name="dc1dd779-7bd0-4f41-a27f-b0466edb99a4">
           <AttributeID>Middle Name</AttributeID>
-          <Name>Middle Name</Name>
+          <Name>Middle Name DD</Name>
         </AttributeRelationship>
       </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a2f60cac-358f-4216-aa06-279e19c5efcf">
+      <ID>Full Name 1</ID>
+      <Name>Full Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2b2eb777-d42e-4ad4-860e-53f51e4f1590">
+          <DataType>WChar</DataType>
+          <DataSize>152</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c314519f-a82e-47ae-90fd-7f8aae735b62">
+            <TableID>Person_Person</TableID>
+            <ColumnID>FullName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="50db1e2f-0d80-42d2-b488-6362f70faf21">
+      <ID>First Name 1</ID>
+      <Name>First Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c09dee17-60a9-4dfc-bf40-dc38bd90063f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05f50138-5148-4d85-ab4a-f71b4194c40c">
+            <TableID>Person_Person</TableID>
+            <ColumnID>FirstName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ffd58277-3daa-4118-b223-702ffcf9453e">
+      <ID>Middle Name 1</ID>
+      <Name>Middle Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="568c4fe2-0450-483f-88f3-caf5c4434768">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7f63b6d1-ca79-4fd4-8fe5-12a455fbf03b">
+            <TableID>Person_Person</TableID>
+            <ColumnID>MiddleName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="16f3d0c0-2d9c-4aeb-babc-ad7a5ad56545">
+      <ID>Last Name 1</ID>
+      <Name>Last Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="82b16eb0-27ed-4b92-b50e-ae63d18cf8d6">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60e671d5-e379-4513-8bda-11845f8e3565">
+            <TableID>Person_Person</TableID>
+            <ColumnID>LastName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>

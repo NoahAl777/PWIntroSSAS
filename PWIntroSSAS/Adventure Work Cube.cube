@@ -128,6 +128,18 @@
         <Attribute dwd:design-time-name="da77edf3-fb41-44ca-a2f1-9146075bdf28">
           <AttributeID>Last Name</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="d44db112-5fa2-482a-9b92-559a8518f3c2">
+          <AttributeID>Full Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae82aa80-ca10-4572-b916-a75e170525d4">
+          <AttributeID>First Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ad7cb4f2-a51c-4b70-951e-0f50f28468b1">
+          <AttributeID>Middle Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b8b779a-3129-4df9-80a5-ec08364314fc">
+          <AttributeID>Last Name 1</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="5de240c4-fed5-4fa6-bb2f-f7059bec9972">
