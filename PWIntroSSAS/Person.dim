@@ -70,12 +70,6 @@
       <Value>
         <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
           <Shapes NodeWidth="156">
-            <Shape Id="Email Promotion" Expanded="false">
-              <Attributes>
-                <Attribute Id="Email Promotion" />
-              </Attributes>
-              <Position x="20" y="68" />
-            </Shape>
             <Shape Id="Business Entity ID" Expanded="false">
               <Attributes>
                 <Attribute Id="Business Entity ID" />
@@ -150,15 +144,49 @@
       <ID>Full Name</ID>
       <Name>Full Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a6a1b7d0-b6ab-4450-83c1-386dffadd4d3">
+        <KeyColumn dwd:design-time-name="25ecd011-fa38-45aa-ab58-d3d130ac5ebd">
           <DataType>WChar</DataType>
           <DataSize>152</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="81bc46c5-d199-49dd-a08c-48f86e1411cd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="73541161-312e-4182-9fbc-f115ccc471c5">
             <TableID>Person_Person</TableID>
             <ColumnID>FullName</ColumnID>
           </Source>
         </KeyColumn>
+        <KeyColumn dwd:design-time-name="c57b491b-50e2-4731-ab85-b9b6af24f93a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2425b58f-abec-4c7b-8680-f4e3b68ef67d">
+            <TableID>Person_Person</TableID>
+            <ColumnID>FirstName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="5ff54ce4-80ee-4485-8a22-8cdec08a8f39">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="96fccda8-bf6f-4a08-adca-b5c0907a39e1">
+            <TableID>Person_Person</TableID>
+            <ColumnID>MiddleName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="5d9ef4b9-7f70-4f08-a744-c4dd7c367cf2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a818f956-1f59-4adb-b763-fa0b59b737d7">
+            <TableID>Person_Person</TableID>
+            <ColumnID>LastName</ColumnID>
+          </Source>
+        </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="349825b2-2232-449a-8f58-520f1648b9da">
+        <DataType>WChar</DataType>
+        <DataSize>152</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1c792302-6f52-4a25-9770-c0334203d7e8">
+          <TableID>Person_Person</TableID>
+          <ColumnID>FullName</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -205,6 +233,8 @@
           <Name>Full Name</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -240,7 +270,7 @@
       <NameColumn dwd:design-time-name="412b2208-e525-4c68-8b2a-15f1b10f2171">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="e4bedcd7-887b-4608-abf3-834a60e5b857">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8d55447a-96f3-4849-a452-02ceec3d174b">
           <TableID>Person_Person</TableID>
           <ColumnID>MiddleName</ColumnID>
         </Source>
@@ -251,6 +281,7 @@
           <Name>First Name</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -297,6 +328,8 @@
           <Name>Middle Name</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
